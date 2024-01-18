@@ -36,10 +36,11 @@ Virtual Box ladattu 16.1.2023 klo 12:36 (virtualbox.org). Debian live 12.4.0 lad
 - 16:41 kuvakaappaus, kuvan upload repositoryyn ja lisääminen raporttiin.
 
   ![Add file: Upload](h1-foreca.png)
-  
 
+  ## Lopetus
+  16:46 Virtuaalikoneen sammutus
+  16:47 Tallennus ja tehtävän palautus
   
-
 
 ## Lähteet
 - https://www.gnu.org/philosophy/free-sw.html
