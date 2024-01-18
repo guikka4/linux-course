@@ -33,6 +33,9 @@ Virtual Box ladattu 16.1.2023 klo 12:36 (virtualbox.org). Debian live 12.4.0 lad
 - Luonnin jälkeen notification "Can't run guest install". ei toimenpiteitä
 - 16:34 Virtuaalikone käynnissä
 - 16:35 Hiiri toimii, näppäimistö toimii, internet toimii
+- 16:41 kuvakaappaus, kuvan upload repositoryyn ja lisääminen raporttiin.
+  ![Add file: Upload](h1-foreca.png)
+  
 
   
 
