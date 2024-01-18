@@ -20,11 +20,22 @@ Käytössä oleva tietokone on Windows 11 Home käyttöjärjestelmällä oleva k
 - Käyttäjät voivat vapaasti jakaa ohjelmiston kopioita auttaakseen muita.
 - Käyttäjät voivat vapaasti jakaa muutettua ohjelmistoa muille. Pääsy lähdekoodiin on edellytys tälle toiminnalle.
 
-## Tiedoston poistaminen
+## Tiedoston poistaminen ja uuden luonti
 18.1.2023 klo 16.11 huomasin, että unohdin tallentaa raportin .md muodossa. Tiedoston tekstin copy, sekä tiedoston poisto, uusi tiedosto ja paste. Uusi tallennus. 
   
 ## Virtual Boxin ja Debian liven lataus ja asennus
 Virtual Box ladattu 16.1.2023 klo 12:36 (virtualbox.org). Debian live 12.4.0 ladattu 16.1.2023 klo 13:54 (https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=debian)
+- 16.17 Virtuaalikoneen luonti. Luonnissa käytetty ohjeita, jotka löytyvät https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=debian.
+- Käyttäjätunnus ja salasana luotu
+- 8gb RAM muistia käyttöön
+- 4 prosessoriydintä käyttöön
+- 50gt kiintolevytilaa käyttöön
+- Luonnin jälkeen notification "Can't run guest install". ei toimenpiteitä
+- 16:34 Virtuaalikone käynnissä
+- 16:35 Hiiri toimii, näppäimistö toimii, internet toimii
+
+  
+
 
 ## Lähteet
 https://www.gnu.org/philosophy/free-sw.html
