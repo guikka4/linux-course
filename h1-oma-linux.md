@@ -34,6 +34,7 @@ Virtual Box ladattu 16.1.2023 klo 12:36 (virtualbox.org). Debian live 12.4.0 lad
 - 16:34 Virtuaalikone käynnissä
 - 16:35 Hiiri toimii, näppäimistö toimii, internet toimii
 - 16:41 kuvakaappaus, kuvan upload repositoryyn ja lisääminen raporttiin.
+
   ![Add file: Upload](h1-foreca.png)
   
 
@@ -41,8 +42,8 @@ Virtual Box ladattu 16.1.2023 klo 12:36 (virtualbox.org). Debian live 12.4.0 lad
 
 
 ## Lähteet
-https://www.gnu.org/philosophy/free-sw.html
-https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
-https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=debian
-https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h1-oma-linux
-https://www.virtualbox.org/wiki/Downloads 
+- https://www.gnu.org/philosophy/free-sw.html
+- https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+- https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=debian
+- https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h1-oma-linux
+- https://www.virtualbox.org/wiki/Downloads 
