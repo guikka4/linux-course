@@ -1,5 +1,5 @@
 # Komentaja Pingviini
-Työskentely alkaa klo 10:00
+Työskentely alkaa klo 10:00. klo 13 lopetus, taukoja ollut puolet ajasta.
 
 ## Käytettävä tietokone
 - Asus Tuf Gaming A15 FA506QM kannettava tietokone
@@ -38,6 +38,7 @@ Useamman ohjelman asennus kerralla vaatii komennon sudo apt-get install ohjelma1
 
 
 ## FHS - Important directories
+
 
 ## Lähteet
 - Karvinen, T. Command Line Basics Revisited https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
