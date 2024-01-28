@@ -25,9 +25,21 @@ Micro on kätevän oloinen tekstieditori, joka tuli asenneltua jo edellisellä t
 
 
 ## Rauta
+Ennen sudo lshw -short -sanitize komentoa jouduin asentamaan lshw:n (list hardware). Se tapahtui sudo apt install lshw -komennolla. Itse listaus esittelee käytössä olevan raudan sekä siihen sisältyvät verkkokortit ja virtuaalikoneen integraatiot, kuten hiiren.
 
 
+
+## Apt - komentoriviohjelmien asennus
+Useamman ohjelman asennus kerralla vaatii komennon sudo apt-get install ohjelma1 ohjelma2 ohjelma3. Ideoita ohjelmiin osoitteessa https://medium.com/@gurpreet.singh_89/15-fun-linux-command-line-programs-to-spice-up-your-terminal-abf30af73de1
+
+
+
+
+
+
+## FHS - Important directories
 
 ## Lähteet
 - Karvinen, T. Command Line Basics Revisited https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 - Karvinen, T. Tehtävänannot. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
+- Singh, G. 2023. https://medium.com/@gurpreet.singh_89/15-fun-linux-command-line-programs-to-spice-up-your-terminal-abf30af73de1
