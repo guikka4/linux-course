@@ -20,6 +20,12 @@ Työskentely alkaa klo 10:00
 - https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 
 ## Micron asennus
+Micro on kätevän oloinen tekstieditori, joka tuli asenneltua jo edellisellä tunnilla kissa ja koira tekstitiedostoja luodessa. Kaiken työskentelyn alkasessa on kuitenkin aloitettava komennolla "sudo apt-get update" joka päivittää kaikki paketit. Vasta tämän jälkeen tehdään ohjelmien asennus. (Karvinen, T.) https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
+
+
+
+## Rauta
+
 
 
 ## Lähteet
