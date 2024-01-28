@@ -1,5 +1,5 @@
 # Komentaja Pingviini
-Työskentely alkaa klo 10:00. klo 13 lopetus, taukoja ollut puolet ajasta.
+Työskentely kesti yli 5 tuntia, kahdessa osassa. Väliin mahtui muutama lyhyt tauko. Komentorivi tuli siinä määrin myös tutuksi, kun liikuin hakemistoissa edes takaisin ja etsin tiedostoja sekä kansioita.
 
 ## Käytettävä tietokone
 - Asus Tuf Gaming A15 FA506QM kannettava tietokone
