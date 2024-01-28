@@ -27,14 +27,14 @@ Micro on kätevän oloinen tekstieditori, joka tuli asenneltua jo edellisellä t
 ## Rauta
 Ennen sudo lshw -short -sanitize komentoa jouduin asentamaan lshw:n (list hardware). Se tapahtui sudo apt install lshw -komennolla. Itse listaus esittelee käytössä olevan raudan sekä siihen sisältyvät verkkokortit ja virtuaalikoneen integraatiot, kuten hiiren.
 
-![Add file: Upload](h2lshw)
+![Add file: Upload](h2lshw.png)
 
 ## Apt - komentoriviohjelmien asennus
 Useamman ohjelman asennus kerralla vaatii komennon sudo apt-get install ohjelma1 ohjelma2 ohjelma3. Ideoita ohjelmiin osoitteessa https://medium.com/@gurpreet.singh_89/15-fun-linux-command-line-programs-to-spice-up-your-terminal-abf30af73de1
 
 ![Add file: Upload](h2moniasennusterminaaliohjelmille.png)
 
-![Add file: Upload](h2pelitesti)
+![Add file: Upload](h2pelitesti.png)
 
 ## FHS - Important directories
 ### / root directory
@@ -74,11 +74,11 @@ Grep - komentoa käytetään etsimään yhtäläisyyksiä joko tiedostokansioist
 
 ### grep query viikko -> etsitään tiedostokansio jonka nimessä on viikko
 
-![Add file: Upload](h2grepqueryfile)
+![Add file: Upload](h2grepqueryfile.png)
 
 ### grep micro kissa.txt -> etsitään lauseet, joissa micro mainittu
 
-![Add file: Upload](h2grepword)
+![Add file: Upload](h2grepword.png)
 
 ## Putki, pipe
 
