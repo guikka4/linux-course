@@ -38,6 +38,25 @@ Useamman ohjelman asennus kerralla vaatii komennon sudo apt-get install ohjelma1
 
 
 ## FHS - Important directories
+### / root directory
+Kaiken alku-ja juurihakemisto. Pääsy komennolla cd /. ls komennolla saa näkyviin kaiken, mitä hakemistot sisältävät. Juurihakemiston kautta pääsee porautumaan hakemistossa minne vain.
+
+### /home/
+Käyttäjien kotihakemistot. Sisältää oman kansioni
+
+### /home/pasih/
+Kotihakemisto käyttäjälle pasih. Ainut paikka, mihin käyttäjä voi tallentaa dataa pysyvästi. Aiemman tunnin kissa ja koira tiedostot löytyvät täältä, kun porautuu eteenpäin.
+
+### /etc/
+Tekstitiedostoja, systeemin asetukset löytyvät täältä. Jälkimmäisessä kuvassa profile-tiedosto less komennolla luettavissa.
+
+### /media/
+Sisältää tiedot, jos koneessa olisi kiinni muistitikku, tai asemassa cd/dvd -levy. Nyt ei ole, joten kansiot on tyhjänä.
+
+### /var/log/
+Sisältää systeemin lokitiedot.
+
+## The Friendly M
 
 
 ## Lähteet
