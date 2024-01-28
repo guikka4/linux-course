@@ -57,9 +57,22 @@ Sisältää tiedot, jos koneessa olisi kiinni muistitikku, tai asemassa cd/dvd -
 Sisältää systeemin lokitiedot.
 
 ## The Friendly M
+Grep - komentoa käytetään etsimään yhtäläisyyksiä joko tiedostokansioista tai itse tiedostoista. Sillä voidaan siis etsiä esimerkiksi tiettyjä sanoja eri tavoilla (Hostinger tutorials. https://www.hostinger.com/tutorials/grep-command-in-linux-useful-examples/) Alla muutama komentoesimerkki grepin käytöstä.
+
+### grep --help -> ohjeet
+
+
+### grep query viikko -> etsitään tiedostokansio jonka nimessä on viikko
+
+
+### grep micro kissa.txt -> etsitään lauseet, joissa micro mainittu
+
+
+## Putki, pipe
 
 
 ## Lähteet
+- Hostinger Tutorials. https://www.hostinger.com/tutorials/grep-command-in-linux-useful-examples/
 - Karvinen, T. Command Line Basics Revisited https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
 - Karvinen, T. Tehtävänannot. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
 - Singh, G. 2023. https://medium.com/@gurpreet.singh_89/15-fun-linux-command-line-programs-to-spice-up-your-terminal-abf30af73de1
