@@ -1,5 +1,5 @@
 # Hello Web Server
-Työskentelyn kesto 18:11- 2.2.2024. Työskentely tapahtuu perjantai-iltana kotioloissa, omalla kannettavalla tietokoneella. Vapaaehtoiset tehtävät jäävät tällä istumalla nyt tekemättä, palaan niihin uudella energialla paremmalla ajalla
+Työskentelyn kesto 18:11-20:20 2.2.2024. Työskentely tapahtuu perjantai-iltana kotioloissa, omalla kannettavalla tietokoneella. Vapaaehtoiset tehtävät jäävät tällä istumalla nyt tekemättä, palaan niihin uudella energialla paremmalla ajalla.
 
 ## Käytettävä tietokone
 - Asus Tuf Gaming A15 FA506QM kannettava tietokone
