@@ -25,6 +25,20 @@ Otin lokin less -N komennolla. Käytin apache2:n access.logia. Se ei kuitenkaan 
 
 
 ## Etusivu uusiksi
+Ensin luodaan hattu.conf tiedosto sudoeditillä.
+
+Sitten suljetaan käynnissä oleva webbipalvelin joka luotiin tunnilla komennolla a2dissite. Sen jälkeen sudo restarttia apachelle, ja vanha koira poistuu käytöstä. Kuitenkin apache heittää localhostilla vakioetusivunsa, vaikka sivusto ei näy sites-enabledissa. Enabloin myös uuden hattu sivuston ja potkin uudelleen apachen restartille.
+
+Tämän jälkeen luon uuden kansion polulle, jonka konffitiedostoon kirjoitin.
+
+Sitten vielä index.html filu sisään testiä koneeseen.
+
+
+## HTML5 -sivu
+Muokkasin hattu.comin html5 muotoon.
+
+
+## 
 
 ## Lähteet
 - https://httpd.apache.org/docs/2.4/vhosts/name-based.html
