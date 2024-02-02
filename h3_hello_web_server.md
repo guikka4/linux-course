@@ -47,4 +47,5 @@ Curl komennoilla saadaan näkyville (esimerkissä curl localhost) -> tekstitieto
 - https://httpd.apache.org/docs/2.4/vhosts/name-based.html
 - https://terokarvinen.com/2012/short-html5-page/
 - https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+- https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h3-hello-web-server
 - https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
