@@ -1,5 +1,5 @@
 # Hello Web Server
-Työskentelyn kesto 18:11-. Työskentely tapahtuu perjantai-iltana kotioloissa, omalla kannettavalla tietokoneella.
+Työskentelyn kesto 18:11- 2.2.2024. Työskentely tapahtuu perjantai-iltana kotioloissa, omalla kannettavalla tietokoneella. Vapaaehtoiset tehtävät jäävät tällä istumalla nyt tekemättä, palaan niihin uudella energialla paremmalla ajalla
 
 ## Käytettävä tietokone
 - Asus Tuf Gaming A15 FA506QM kannettava tietokone
@@ -41,8 +41,6 @@ Muokkasin hattu.comin html5 muotoon. Edellisestä HTML sivun tekemistä on aikaa
 ## Curl komennot
 Curl komennoilla saadaan näkyville (esimerkissä curl localhost) -> tekstitietona webbisivu. curl -I näyttää sitten yksityiskohtaisemmat tiedot, ja otsakkeet luettavasta tiedosta.
 
-
-## GitHub Education
 
 
 ## Lähteet
