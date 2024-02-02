@@ -14,6 +14,7 @@ Työskentelyn kesto 18:11- 2.2.2024. Työskentely tapahtuu perjantai-iltana koti
 - Nimipohjaisessa taas palvelin tarvitsee isännälle määritellyn nimen, jotta osaa ohjata käyttäjän oikeaan osoitteeseen.
 - Nimipohjaisella isännöinnillä voidaan käyttää samaa IP-osoitetta monille sivustoille, jos palvelin konfiguroidaan ohjaamaan kävijä oikealle sivustolle nimen perusteella.
 ![Add file: Upload](h3_virtual_host_config.png)
+
 - Paikallisesti voidaan luoda localhost-sivusto, jota testata ennen tuotantoon menoa.
 
 ## Weppipalvelimen testaus localhostilla
