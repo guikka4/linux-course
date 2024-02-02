@@ -26,16 +26,20 @@ Otin lokin less -N komennolla. Käytin apache2:n access.logia. Se ei kuitenkaan 
 ## Etusivu uusiksi
 Ensin luodaan hattu.conf tiedosto sudoeditillä.
 ![Add file: Upload](h3_hattu_conf.png)
-Sitten suljetaan käynnissä oleva webbipalvelin joka luotiin tunnilla komennolla a2dissite. Sen jälkeen sudo restarttia apachelle, ja vanha koira poistuu käytöstä. Kuitenkin apache heittää localhostilla vakioetusivunsa, vaikka sivusto ei näy sites-enabledissa. Enabloin myös uuden hattu sivuston ja potkin uudelleen apachen restartille.
-![Add file: Upload](h3_dissite_koira.png)![Add file: Upload](h3_dissite_koira_restart.png)![Add file: Upload](h3_hattu_enabled.png)
-Tämän jälkeen luon uuden kansion polulle, jonka konffitiedostoon kirjoitin.
 
+Sitten suljetaan käynnissä oleva webbipalvelin joka luotiin tunnilla komennolla a2dissite. Sen jälkeen sudo restarttia apachelle, ja vanha koira poistuu käytöstä. Kuitenkin apache heittää localhostilla vakioetusivunsa, vaikka sivusto ei näy sites-enabledissa. Enabloin myös uuden hattu sivuston ja potkin uudelleen apachen restartille.
+
+![Add file: Upload](h3_dissite_koira.png)![Add file: Upload](h3_dissite_koira_restart.png)![Add file: Upload](h3_hattu_enabled.png)
+
+Tämän jälkeen luon uuden kansion polulle, jonka konffitiedostoon kirjoitin.
 Sitten vielä index.html filu sisään testiä koneeseen.
+
 ![Add file: Upload](h3_hattu_test1.png)
 ![Add file: Upload](h3_hattu_test2.png)
 
 ## HTML5 -sivu
 Muokkasin hattu.comin html5 muotoon. Edellisestä HTML sivun tekemistä on aikaa, joten lunttaus oli paikallaan. https://terokarvinen.com/2012/short-html5-page/
+
 ![Add file: Upload](h3_html5.png)
 ![Add file: Upload](h3_html_firefox.png)
 
