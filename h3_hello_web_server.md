@@ -35,12 +35,18 @@ Sitten vielä index.html filu sisään testiä koneeseen.
 
 
 ## HTML5 -sivu
-Muokkasin hattu.comin html5 muotoon.
+Muokkasin hattu.comin html5 muotoon. Edellisestä HTML sivun tekemistä on aikaa, joten lunttaus oli paikallaan. https://terokarvinen.com/2012/short-html5-page/
 
 
-## 
+## Curl komennot
+Curl komennoilla saadaan näkyville (esimerkissä curl localhost) -> tekstitietona webbisivu. curl -I näyttää sitten yksityiskohtaisemmat tiedot, ja otsakkeet luettavasta tiedosta.
+
+
+## GitHub Education
+
 
 ## Lähteet
 - https://httpd.apache.org/docs/2.4/vhosts/name-based.html
+- https://terokarvinen.com/2012/short-html5-page/
 - https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
