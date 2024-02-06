@@ -54,9 +54,16 @@ Curl komennoilla saadaan näkyville (esimerkissä curl localhost) -> tekstitieto
 ![Add file: Upload](h3_curl_i.png)
 
 
+### Päivitys
+6.2.2024 klo 14. Rakenneltu html sivu uudelleen w3 validointityökalun avulla. Muokattu metatietoa sekä lisätty ääkköset. Validointi tuloksena antaa vielä herjan kieliasetuksesta, millä ei tässä kohtaa ole merkitystä.
+
+![Add file: Upload](h3_html_paivitys.png)![Add file: Upload](h3_html_paivitys2.png)
+
+
 ## Lähteet
 - https://httpd.apache.org/docs/2.4/vhosts/name-based.html
 - https://terokarvinen.com/2012/short-html5-page/
 - https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h3-hello-web-server
 - https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+- https://validator.w3.org/
