@@ -49,6 +49,13 @@ Ja onnistumisen riemua! Sisällä ollaan.
 
 
 
+## Palvelimen alkutoimet
+Tässä kohtaa tulee (sudo uft allow 22/tcp, jonka pitäisi sallia ssh protokolla) seuraava virhe. `bash: utf: command not found`. palomuuria ei siis löydy valmiina tältä koneelta, joten asennetaan se `sudo apt install uft`. Johan toimii ja matka jatkuu.
+- `sudo ufw allow 22/tcp` -> avataan ssh:lle palomuuriportti
+- `sudo ufw enable` -> palomuuri päälle 
+- `sudo adduser pasih` -> käyttäjän lisääminen. Tässä kohtaa kysellään nimet ja muut. Nimen annan.
+- `sudo adduser pasih sudo` -> pääkäyttäjäoikeuksien antaminen
+- sod
 
 
 ## Lähteet
