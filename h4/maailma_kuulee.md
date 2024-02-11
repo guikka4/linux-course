@@ -35,7 +35,7 @@ Tero Karvisen materiaalien, sekä sekä edellisen oppitunnin perusteella pääti
 Valitsen virtuaalikoneeni sijainniksi EU-valtio Saksasta löytyvän Frankfurtin, käyttöjärjestelmäksi Debian 12, 64bit. Valitsen halvemmasta päästä olevan yhden prosessoriytimen, 25 gigan koneen. Mainiota! Tällä on hyvä lähteä eteenpäin. Sitten onkin aika valita root salasana, SSH määritellään myöhemmin. Mieleeni muistuu, että salasanan on oltava oikeasti vahva! Ja tottakai valitsen kaikki mahdolliset lisäpalvelut ja maksan itseni kipeäksi (en kai sentään). Muistan kuitenkin antaa hostnameksi simppelin nimen, jolla ei ole jäljitettävyyttä esimerkiksi käytettävään OS:ään. Sitten kliksuttelun jälkeen oma söötti droplettini onkin jo käynnissä. Siistiä!
 
 ## Aika ensimmäiselle yhteydelle
-Tässä kohdassa starttaan ensimmäistä kertaa oman paikallisen virtuaalikoneeni. 
+Tässä kohdassa starttaan ensimmäistä kertaa oman paikallisen virtuaalikoneeni ja avaan terminaalin. Tarkoituksenani on ottaa yhteys paikalliselta virtuaalikoneeltani Frankfurtissa sijaitsevaan vastavuokrattuun koneeseen. Tämä tapahtuu SSH (secure shell) protokollalla. Se tapahtuu komennolle     ssh@ip.osoite
 
 ## Lähteet
 - Karvinen, T. 2017. First Steps on a New Virtual Private Server. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/. Luettavissa 11.2.2024
