@@ -15,3 +15,4 @@ Linking Haaga-Helia's web page: https://www.haaga-helia.fi/fi
 ## Next Step
 Try to return the assignment.
 
+    kss
