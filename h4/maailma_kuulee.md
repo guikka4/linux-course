@@ -37,7 +37,7 @@ Valitsen virtuaalikoneeni sijainniksi EU-valtio Saksasta löytyvän Frankfurtin,
 ## Aika ensimmäiselle yhteydelle
 Tässä kohdassa starttaan ensimmäistä kertaa oman paikallisen virtuaalikoneeni ja avaan terminaalin. Tarkoituksenani on ottaa yhteys paikalliselta virtuaalikoneeltani Frankfurtissa sijaitsevaan vastavuokrattuun koneeseen. Tämä tapahtuu SSH (secure shell) protokollalla. Se tapahtuu ensimmäisellä kerralla komennolla `ssh root@ip.osoite`. IP-osoite on näkyvissä DigitalOceanin sivuilla.
 
-Tässä kohtaa meinasi mennä sormi suuhun. `bash: ssh: command not found` ?? Googletin asiaa, ja päädyin asentamaan ssh-serverin. Komento oli `sudo apt install openssh-server` (Linuxcapable). Tämän jälkeen tsekkasin SSH statuksen `systemctl status ssh`.
+Tässä kohtaa meinasi mennä sormi suuhun. `bash: ssh: command not found` ?? Googletin asiaa, ja päädyin asentamaan ssh-serverin. Komento oli `sudo apt install openssh-server` (Linuxcapable). Ennen tätä vaadittiin kuitenkin päivitysten ajo palvelimelle `sudo apt-get update`ja `sudo apt-get upgrade`. Vasta päivityksen jälkeen pystyy asentelemaan ohjelmia, ja se on tehtävä päivittäin. Tämän jälkeen tsekkasin SSH statuksen `systemctl status ssh`.
 
 
 
@@ -55,7 +55,10 @@ Tässä kohtaa tulee (sudo uft allow 22/tcp, jonka pitäisi sallia ssh protokoll
 - `sudo ufw enable` -> palomuuri päälle 
 - `sudo adduser pasih` -> käyttäjän lisääminen. Tässä kohtaa kysellään nimet ja muut. Nimen annan.
 - `sudo adduser pasih sudo` -> pääkäyttäjäoikeuksien antaminen
-- sod
+- tämän jälkeen olisi tarkoitus sulkea root-yhteys, mutta ensin testataan toimivuutta: otetaan toisella terminaalilla yhteys palvelimelle, ja jos se onnistuu luodulla nimellä `ssh pasih@ip.ip` niin johan passaa. Ja passaahan se!
+- `sudo usermod --lock root` -> root kirjautumisen sulku
+
+## 
 
 
 ## Lähteet
