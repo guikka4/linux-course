@@ -83,6 +83,9 @@ Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuur
 
 ## Updates
 - 12.2.2024 klo 14:53 kuvien lisäys
+- 12.2.2024 klo 16:10 errorlogia tutkiessa huomaan, että käyttöoikeudet puuttuu. apachen default sivu palautettu näkyville. Ilmeisesti directoryistä johtuvaa säätöä kaipaa, ei olekaan samanmoista asentelua, kuin paikallisesti, jos halutaan julkiseksi.
+
+
 
 ## Lähteet
 - Karvinen, T. 2017. First Steps on a New Virtual Private Server. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/. Luettavissa 11.2.2024
