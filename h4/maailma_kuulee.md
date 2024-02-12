@@ -58,7 +58,25 @@ Tässä kohtaa tulee (sudo uft allow 22/tcp, jonka pitäisi sallia ssh protokoll
 - tämän jälkeen olisi tarkoitus sulkea root-yhteys, mutta ensin testataan toimivuutta: otetaan toisella terminaalilla yhteys palvelimelle, ja jos se onnistuu luodulla nimellä `ssh pasih@ip.ip` niin johan passaa. Ja passaahan se!
 - `sudo usermod --lock root` -> root kirjautumisen sulku
 
-## 
+## Apache2 asennus
+Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuurille sallia yhteys: `sudo ufw allow 80/tcp`. Tämän jälkeen itse apachen asennus.
+- `sudo apt-get install apache2`
+- `sudo systemctl enable --now apache2`
+- Testi: `http://ip.osoite` tuottaa testimielessä apachen default sivun. Eli palvelin on pystyssä. `curl http://ip.osoite` tuottaa tekstinä myös saman tuloksen.
+
+### Etusivun korvaus
+- tehdään konffitiedosto apachen sites-availableen.
+- disabloidaan aiempi testisivu ja enabloidaan uusi
+- `sudo a2dissite 000-default-ssl.conf` -> `sudo a2ensite test.conf` -> tämän jälkeen `systemctl restart apahce2` ja voila, testisivu on nyt tyhjä.
+
+
+
+- Tämän toimenpiteen jälkeen pitää tehdä kansiopolku sinne, mihin test.conf tiedosto vie
+- `mkdir -p /home/pasih/publicweb/test.example.com` -> -p luo alikansiot polulle
+- pistetään index.html tuonne sisälle
+- `systemctl restart apache2`
+- ja ei toimi. Vianselvitys alkakoot!!
+- 
 
 
 ## Lähteet
