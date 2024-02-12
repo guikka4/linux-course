@@ -64,7 +64,7 @@ Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuur
 - `sudo systemctl enable --now apache2`
 - Testi: `http://ip.osoite` tuottaa testimielessä apachen default sivun. Eli palvelin on pystyssä. `curl http://ip.osoite` tuottaa tekstinä myös saman tuloksen.
 
-### Etusivun korvaus
+## Etusivun korvaus
 - tehdään konffitiedosto apachen sites-availableen.
 - disabloidaan aiempi testisivu ja enabloidaan uusi
 - `sudo a2dissite 000-default-ssl.conf` -> `sudo a2ensite test.conf` -> tämän jälkeen `systemctl restart apahce2` ja voila, testisivu on nyt tyhjä.
@@ -76,7 +76,9 @@ Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuur
 - pistetään index.html tuonne sisälle
 - `systemctl restart apache2`
 - ja ei toimi. Vianselvitys alkakoot!!
-- 
+### Vianselvitys
+- `sudo apache2ctl configtest` ei anna mitään järkevää, aika  tutkia errorlogit
+- Ei luonnistu. aika lopettaa 02:37
 
 
 ## Lähteet
