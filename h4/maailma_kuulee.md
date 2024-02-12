@@ -92,7 +92,7 @@ Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuur
 - säädetty konffitiedostoakin, jotta polku kohtaa.
 - pistetty `echo "Test!" | sudo tee /....` Aloitussivu päivittyi
 
-![Add file: Upload](
+![Add file: Upload](h4_tee_test.png)
 
 ## Lähteet
 - Karvinen, T. 2017. First Steps on a New Virtual Private Server. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/. Luettavissa 11.2.2024
