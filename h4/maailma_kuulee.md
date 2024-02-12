@@ -39,15 +39,15 @@ Tässä kohdassa starttaan ensimmäistä kertaa oman paikallisen virtuaalikoneen
 
 Tässä kohtaa meinasi mennä sormi suuhun. `bash: ssh: command not found` ?? Googletin asiaa, ja päädyin asentamaan ssh-serverin. Komento oli `sudo apt install openssh-server` (Linuxcapable). Ennen tätä vaadittiin kuitenkin päivitysten ajo palvelimelle `sudo apt-get update`ja `sudo apt-get upgrade`. Vasta päivityksen jälkeen pystyy asentelemaan ohjelmia, ja se on tehtävä päivittäin. Tämän jälkeen tsekkasin SSH statuksen `systemctl status ssh`.
 
-
+![Add file: Upload](h4_ssh_root.png)
 
 ja koitin ottaa roottiyhteyttä uudestaan. Siinä kohtaa kysyttiin otetaanko yhteys.
 
-
+![Add file: Upload](h4_ssh_connected.png)
 
 Ja onnistumisen riemua! Sisällä ollaan.
 
-
+![Add file: Upload](h4_ssh_status.png)
 
 ## Palvelimen alkutoimet
 Tässä kohtaa tulee (sudo uft allow 22/tcp, jonka pitäisi sallia ssh protokolla) seuraava virhe. `bash: utf: command not found`. palomuuria ei siis löydy valmiina tältä koneelta, joten asennetaan se `sudo apt install uft`. Johan toimii ja matka jatkuu.
@@ -69,7 +69,7 @@ Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuur
 - disabloidaan aiempi testisivu ja enabloidaan uusi
 - `sudo a2dissite 000-default-ssl.conf` -> `sudo a2ensite test.conf` -> tämän jälkeen `systemctl restart apahce2` ja voila, testisivu on nyt tyhjä.
 
-
+![Add file: Upload](h4_apache_test.png)
 
 - Tämän toimenpiteen jälkeen pitää tehdä kansiopolku sinne, mihin test.conf tiedosto vie
 - `mkdir -p /home/pasih/publicweb/test.example.com` -> -p luo alikansiot polulle
@@ -80,6 +80,9 @@ Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuur
 - `sudo apache2ctl configtest` ei anna mitään järkevää, aika  tutkia errorlogit
 - Ei luonnistu. aika lopettaa 02:37
 
+
+## Updates
+- 12.2.2024 klo 14:53 kuvien lisäys
 
 ## Lähteet
 - Karvinen, T. 2017. First Steps on a New Virtual Private Server. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/. Luettavissa 11.2.2024
