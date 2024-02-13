@@ -102,7 +102,7 @@ Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuur
 - Lisäsin sulun, ja uusi `sudo systemctl restart apache2`
 - Lopputulos kuvakaappauksella, kaikki toimii! YES. Seuraavaksi nimipalvelun kimppuun.
 
-
+![Add file: Upload](h4_final_test.png)
 
 ## Lähteet
 - Karvinen, T. 2017. First Steps on a New Virtual Private Server. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/. Luettavissa 11.2.2024
