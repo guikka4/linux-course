@@ -111,12 +111,18 @@ Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuur
 ![Add file: Upload](h4_DNS.png)
 
 - Testattu kännykän selaimella, virtuaalikoneella sekä PC:n selaimella toimivuus, kun Namecheapilta ilmoitettiin nimen olevan käytössä.
+- Lisätty index.html:ään html koodia
 
+![Add file: Upload](h4_html_2.png)
 
+- Validoitu https://validator.w3.org/
+
+![Add file: Upload](h4_validator.png)
 
 ## Lähteet
 - Karvinen, T. 2017. First Steps on a New Virtual Private Server. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/. Luettavissa 11.2.2024
 - Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/. Luettavissa 11.2.2024
 - Lehto, S. 2022. Teoriasta käytäntöön pilvipalvelimen avulla (h4). https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/. Luettavissa 11.2.2024
 - Linuxcapable. Open SSH. https://www.linuxcapable.com/how-to-install-and-enable-ssh-on-debian-linux/. Luettavissa 12.2.2024
+- https://validator.w3.org/
 
