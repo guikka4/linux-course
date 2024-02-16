@@ -104,6 +104,16 @@ Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuur
 
 ![Add file: Upload](h4_final_test.png)
 
+- 16.2.2024 klo 12.10 raportin teko jatkuu
+- nimipalvelimeksi valikoitui namecheap.com. DNS guikka.com oli vapaana, se valikoitui vuodeksi vaikka oli hieman kalliimpi.
+- laitettu guikka.com osoittamaan DigitalOceanilta vuokratun palvelimen IP-osoiteeseen.
+
+![Add file: Upload](h4_DNS.png)
+
+- Testattu kännykän selaimella, virtuaalikoneella sekä PC:n selaimella toimivuus, kun Namecheapilta ilmoitettiin nimen olevan käytössä.
+
+
+
 ## Lähteet
 - Karvinen, T. 2017. First Steps on a New Virtual Private Server. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/. Luettavissa 11.2.2024
 - Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/. Luettavissa 11.2.2024
