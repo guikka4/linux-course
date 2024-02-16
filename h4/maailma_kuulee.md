@@ -119,6 +119,8 @@ Jotta julkisen palvelimen saa asennettua virtuaalipalvelimelle, täytyy palomuur
 
 ![Add file: Upload](h4_validator.png)
 
+-Valmista 16.2.2024 klo 12:45
+
 ## Lähteet
 - Karvinen, T. 2017. First Steps on a New Virtual Private Server. https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/. Luettavissa 11.2.2024
 - Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/. Luettavissa 11.2.2024
