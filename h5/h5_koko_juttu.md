@@ -27,6 +27,18 @@ Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05.
 - Hiiri, näppäimistö ja netti toimii.
 - Ajetaan installer työpöydältä ja seurataan ohjeita. Muistetaan hyvä salasana, sekä nimi, joka ei ole tunnistettavissa (se on näkyvillä)
 
+### Komentorivin toimet - ensimmäiset askelet uudella käyttiksellä
+- haetaan päivitykset 'sudo apt-get update'
+- asennetaan päivitykset 'sudo apt-get -y dist-upgrade' (-y vastaa "yes" kaikkiin kysymyksiin asennuksista)
+- asennetaan palomuuri 'sudo apt-get -y install ufw' ja laitetaan se päälle 'sudo ufw enable' --> näiden jälkeen boottaus
+
+
+  
+- resoluution säätämiseksi asennetaan vielä VMGuestBoxAdditions ja käytetään terminaalissa komentoa 'sudo bash VBoxLinuxAdditions.run'
+- testaus vielä boottauksen jälkeen, että kaikki toimii
+
+
+
 ## 
 
 
