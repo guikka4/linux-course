@@ -16,7 +16,7 @@ Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05.
 - päivitetään myöhemmin, kun uusi virtuaalikone on luotu
 - 
 
-## Uuden virtuaalikoneen asennus. 19:10
+## Uuden virtuaalikoneen asennus. 22.2.2024 19:10-20:25 suunnilleen 20 minuutin tauolla
 - Aloitetaan asentamalla VirtualBoxiin uusi kone. Ohjeita joudun selaamaan https://terokarvinen.com/2021/install-debian-on-virtualbox/.
 - Nimi määritetty, asennuksen sijainti asetettu
 - ISO kuvake (virtuaalinen asennuslevy) bongattu edellisestä sijainnistaan. 64-bit versio Debianista
