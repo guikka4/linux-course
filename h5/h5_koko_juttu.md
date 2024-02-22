@@ -42,10 +42,12 @@ Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05.
 
 ![Add file: Upload](h5_resotoimii.png)
 
-## Apache ja SSH asennus
+## Apache ja SSH asennus (Karvinen, T. 2018) 22.2.2024 klo 
+Seuraavana on vuorossa web-palvelin Apachen asennus. 
 
 
 
 ## Lähteet
+- Karvinen, T. 2018. Name Based Virtual Hosts on Apache. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, T. 2021. Debianin asennus. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
