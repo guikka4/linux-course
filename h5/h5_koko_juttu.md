@@ -14,6 +14,7 @@ Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05.
 
 ### Guest OS
 - päivitetään myöhemmin, kun uusi virtuaalikone on luotu
+- 
 
 ## Uuden virtuaalikoneen asennus. 19:10
 - Aloitetaan asentamalla VirtualBoxiin uusi kone. Ohjeita joudun selaamaan https://terokarvinen.com/2021/install-debian-on-virtualbox/.
@@ -24,7 +25,7 @@ Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05.
 - 50Gt dynaamista kovalevytilaa luodaan (ei varaa tallennustilaa, ellei sille ole tarvetta) -> tässä kohtaa voisin valita kovalevytilan jaettuna aiemmin luodulta virtuaalikoneeltani, mutta luon uuden.
 - Vielä uuden virtuaalikoneen settingseistä lyödään boottilevyke sisään (ISO tiedosto) ja menoksi
 - Hiiri, näppäimistö ja netti toimii.
-- Ajetaan installer työpöydältä ja seurataan ohjeita
+- Ajetaan installer työpöydältä ja seurataan ohjeita. Muistetaan hyvä salasana, sekä nimi, joka ei ole tunnistettavissa (se on näkyvillä)
 
 ## 
 
