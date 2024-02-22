@@ -32,12 +32,15 @@ Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05.
 - asennetaan päivitykset `sudo apt-get -y dist-upgrade` (-y vastaa "yes" kaikkiin kysymyksiin asennuksista)
 - asennetaan palomuuri `sudo apt-get -y install ufw` ja laitetaan se päälle `sudo ufw enable` --> näiden jälkeen boottaus
 
-![Add file: Upload]
+![Add file: Upload](h5_alkutoimet.png)
   
 - resoluution säätämiseksi asennetaan vielä VMGuestBoxAdditions ja käytetään terminaalissa komentoa `sudo bash VBoxLinuxAdditions.run`
+
+![Add file: Upload](h5_guestadds.png)
+
 - testaus vielä boottauksen jälkeen, että kaikki toimii
 
-![Add file: Upload]
+![Add file: Upload](h5_resotoimii.png)
 
 ## Apache ja SSH asennus
 
