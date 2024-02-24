@@ -93,6 +93,7 @@ Answer-kohdassa on näkyvissä palvelimen nimi, 285 on aika, jonka jälkeen tall
 Lopussa löytyy kyselyn statistiikka (aika, pvm sekä palvelin, minkä kautta kysely kulkee) -> Tästähän tajusin, että tämä "palvelinosoite" osoittaa omaan kotireitittimeeni.
 
 Testasin dig-komentoa useasti, ja vastaus oli hieman erilainen joka kerta. Pakettien koko vaihtuu.
+
 (PhoenixNap)
 
 ![Add file: Update](h5_dig_host.png)
