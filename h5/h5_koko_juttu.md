@@ -72,7 +72,9 @@ Parin päivän luovan taon jälkeen työskentely jatkuu. Seuraavana on vuorossa 
 
 ![Add file: Upload](h5_testausalikansio.png)
 
-- 
+- Tein ja vielä html-sivun index.html -tiedostoon ja validoin sivun w3 validatorin avulla.
+
+![Add file: Upload]
 
 
 
