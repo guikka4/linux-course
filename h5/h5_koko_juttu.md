@@ -28,9 +28,9 @@ Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05.
 - Ajetaan installer työpöydältä ja seurataan ohjeita. Muistetaan hyvä salasana, sekä nimi, joka ei ole tunnistettavissa (se on näkyvillä)
 
 ### Komentorivin toimet - ensimmäiset askelet uudella käyttiksellä
-- haetaan päivitykset `sudo apt-get update`
-- asennetaan päivitykset `sudo apt-get -y dist-upgrade` (-y vastaa "yes" kaikkiin kysymyksiin asennuksista)
-- asennetaan palomuuri `sudo apt-get -y install ufw` ja laitetaan se päälle `sudo ufw enable` --> näiden jälkeen boottaus
+- `sudo apt-get update` haetaan päivitykset 
+- `sudo apt-get -y dist-upgrade` asennetaan päivitykset (-y vastaa "yes" kaikkiin kysymyksiin asennuksista)
+- `sudo apt-get -y install ufw` asennetaan palomuuri ja laitetaan se päälle `sudo ufw enable` --> näiden jälkeen boottaus
 
 ![Add file: Upload](h5_alkutoimet.png)
   
@@ -42,8 +42,37 @@ Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05.
 
 ![Add file: Upload](h5_resotoimii.png)
 
-## Apache ja SSH asennus (Karvinen, T. 2018) 22.2.2024 klo 
-Seuraavana on vuorossa web-palvelin Apachen asennus. 
+## Apache ja SSH asennus 24.2.2024 klo 15:00-
+Parin päivän luovan taon jälkeen työskentely jatkuu. Seuraavana on vuorossa web-palvelin Apachen asennus Uudelle virtuaalikoneelle (Karvinen, T. 2018).
+
+- `sudo apt-get update` ja `sudo apt-get -y dist-upgrade` -> Aloitus hakemalla päivitykset .
+- `sudo apt-get -y install apache2` -> Asennetaan Apache2 
+- `sudo apt-get install micro` -> Asennetaan microeditori helpomman tekstinkäsittelyn takia 
+- `curl localhost` sekä webbisivulta http://localhost -> Testataan palvelimen asentuminen . Toimii
+
+![Add file: Upload]
+
+- `echo "Testing" | sudo tee /var/www/html/index.html` -> Vaihdetaan etusivun teksti . Toimii
+
+![Add file: Upload]
+
+- `EDITOR=micro sudoedit guikka.com.conf` -> Luodaan konffitiedosto /etc/apache2/sites-available -kansioon.
+
+![Add file: Upload]
+
+- `sudo a2ensite guikka.com.conf` -> enabloidaan uusi sivusto
+- `sudo a2dissite 000-default.conf` -> disabloidaan defaultsivu
+- `sudo systemctl restart apache2`-> bootataan palvelin
+- `curl localhost` sekä selaimen refreshaus. So far so good
+
+![Add file: Upload]
+
+- `mkdir -p /home/pazih/publicweb/guikka.com/` -> luodaan tiedostopolku alikansioineen
+- `echo testausta > /home/pazih/publicweb/guikka.com/index.html` -> vaihdetaan etusivun tekstiä jälleen. Toimii
+
+![Add file: Upload]
+
+- 
 
 
 
