@@ -1,7 +1,7 @@
 # Koko juttu - alusta alkaen!
 Tämän viikon tehtävänä on asennella uusi, tyhjä virtuaalikone, joka alustetaan aiemmin kurssilla tehtyyn tapaan. Virtuaalikoneelle asennellaan web-palvelin sekä SSH-etähallintapalvelin. Webpalvelimelle luodaan uusi kotisivu. Lisäksi kirjautuminen automatisoidaan julkisella SSH-avaimella. Näiden toimien jälkeen tutkitaan domain-nimen tietoja 'host' ja 'dig' komennoilla. Vapaaehtoisena tehtävänä on asentaa Vagrant, jonka avulla on helppo ja nopea luoda uusia virtuaalikoneita. (Karvinen, T. 20214)
 
-Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05.
+Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05. `Update 24.2.2024: Yhteensä käytetty työskentelyaika kaikkinensa n. 3 tuntia`.
 
 ## Käytössä oleva rauta
 ### Host OS
@@ -42,7 +42,7 @@ Työskentely alkaa kotioloissa, torstai-iltana 22.2.2024 klo 19:05.
 
 ![Add file: Upload](h5_resotoimii.png)
 
-## Apache ja SSH asennus 24.2.2024 klo 15:00-
+## Apache ja SSH asennus 24.2.2024 klo 15:00->
 Parin päivän luovan taon jälkeen työskentely jatkuu. Seuraavana on vuorossa web-palvelin Apachen asennus Uudelle virtuaalikoneelle (Karvinen, T. 2018).
 
 - `sudo apt-get update` ja `sudo apt-get -y dist-upgrade` -> Aloitus hakemalla päivitykset .
@@ -95,6 +95,8 @@ Lopussa löytyy kyselyn statistiikka (aika, pvm sekä palvelin, minkä kautta ky
 Testasin dig-komentoa useasti, ja vastaus oli hieman erilainen joka kerta. Pakettien koko vaihtuu.
 
 ![Add file: Update](h5_dig_host.png)
+
+### Työskentely päättyy 24.2.2024 klo 17:15. Pidetty n.30min taukoa tämän päivän aikana.
 
 ## Lähteet
 - https://github.com/guikka4/linux-course/blob/main/h4/maailma_kuulee.md 
