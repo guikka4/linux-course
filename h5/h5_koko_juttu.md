@@ -94,7 +94,7 @@ Lopussa löytyy kyselyn statistiikka (aika, pvm sekä palvelin, minkä kautta ky
 
 Testasin dig-komentoa useasti, ja vastaus oli hieman erilainen joka kerta. Pakettien koko vaihtuu.
 
-![Add file: Update]
+![Add file: Update](h5_dig_host.png)
 
 ## Lähteet
 - https://github.com/guikka4/linux-course/blob/main/h4/maailma_kuulee.md 
