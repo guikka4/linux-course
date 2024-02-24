@@ -93,6 +93,7 @@ Answer-kohdassa on näkyvissä palvelimen nimi, 285 on aika, jonka jälkeen tall
 Lopussa löytyy kyselyn statistiikka (aika, pvm sekä palvelin, minkä kautta kysely kulkee) -> Tästähän tajusin, että tämä "palvelinosoite" osoittaa omaan kotireitittimeeni.
 
 Testasin dig-komentoa useasti, ja vastaus oli hieman erilainen joka kerta. Pakettien koko vaihtuu.
+(PhoenixNap)
 
 ![Add file: Update](h5_dig_host.png)
 
@@ -103,4 +104,5 @@ Testasin dig-komentoa useasti, ja vastaus oli hieman erilainen joka kerta. Paket
 - Karvinen, T. 2018. Name Based Virtual Hosts on Apache. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, T. 2021. Debianin asennus. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
+- PhoenixNap. How to Use Linux dog Commands. https://phoenixnap.com/kb/linux-dig-command-examples
 - w3c. https://validator.w3.org/
