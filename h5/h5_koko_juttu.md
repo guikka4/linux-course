@@ -76,9 +76,15 @@ Parin päivän luovan taon jälkeen työskentely jatkuu. Seuraavana on vuorossa 
 
 ![Add file: Upload](h5_htmlvalidate.png)
 
+### SSH
+Kurssin h4-tehtävässä asenneltiin webpalvelinta pilveen. Tässä kohdassa en tee publickey toimia SSH-kirjautumiselle -> `NOTE TO SELF : kysy opettajalta tunnilla, mitä tapahtuu, jos automatisoinnin jälkeen nyt käytössä oleva tietokoneeni hajoaa? Miten vaihdetaan automatisointu kirjautuminen toiselle hostille?`
+
+Teoria, sekä onnistunut SSH-yhteyden ottaminen salasanan avulla omalle pilvipalvelimelle löytyy tehtävän 4 raportistani: https://github.com/guikka4/linux-course/blob/main/h4/maailma_kuulee.md
+
 
 
 ## Lähteet
+- https://github.com/guikka4/linux-course/blob/main/h4/maailma_kuulee.md 
 - Karvinen, T. 2018. Name Based Virtual Hosts on Apache. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, T. 2021. Debianin asennus. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
