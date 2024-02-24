@@ -82,3 +82,4 @@ Parin päivän luovan taon jälkeen työskentely jatkuu. Seuraavana on vuorossa 
 - Karvinen, T. 2018. Name Based Virtual Hosts on Apache. https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Karvinen, T. 2021. Debianin asennus. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/
+- w3c. https://validator.w3.org/
