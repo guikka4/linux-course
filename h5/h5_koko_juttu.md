@@ -50,11 +50,11 @@ Parin päivän luovan taon jälkeen työskentely jatkuu. Seuraavana on vuorossa 
 - `sudo apt-get install micro` -> Asennetaan microeditori helpomman tekstinkäsittelyn takia 
 - `curl localhost` sekä webbisivulta http://localhost -> Testataan palvelimen asentuminen . Toimii
 
-![Add file: Upload](h5_testlocalhost1.png)
+![Add file: Upload](h5_defaulsivunvaihto.png) 
 
 - `echo "Testing" | sudo tee /var/www/html/index.html` -> Vaihdetaan etusivun teksti . Toimii
 
-![Add file: Upload](h5_defaulsivunvaihto.png)
+![Add file: Upload](h5_testlocalhost1.png)
 
 - `EDITOR=micro sudoedit guikka.com.conf` -> Luodaan konffitiedosto /etc/apache2/sites-available -kansioon.
 
