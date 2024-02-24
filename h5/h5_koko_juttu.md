@@ -81,7 +81,20 @@ Kurssin h4-tehtävässä asenneltiin webpalvelinta pilveen. Tässä kohdassa en 
 
 Teoria, sekä onnistunut SSH-yhteyden ottaminen salasanan avulla omalle pilvipalvelimelle löytyy tehtävän 4 raportistani: https://github.com/guikka4/linux-course/blob/main/h4/maailma_kuulee.md
 
+## `host`ja `dig` -tutkimusmatka
+- `sudo apt-get -y install bind9-dnsutils bind9-host` -> komennolla asennetaan otsikon komennot.
+- `host www.guikka.com` näyttää nimipalvelimen takana löytyvän IP-osoitteen
+- `dig www.guikka.com` tuottaa enemmän tietoa.
 
+Kyselyn alussa nähdään komennon versio (DiG 9.18.24-1-Debian). Kyselyn header kohdassa nähdään tiedot, jotka komento sai palvelimelta. OPT-kohdassa sijaitsevat DNS:n mahdolliset lisäosat (version 0) sekä paketin koko. Question-kohdassa nähdään itse kysely, eli nimipalvelin `www.guikka.com`, IN= internet, A=Address, osoite.
+
+Answer-kohdassa on näkyvissä palvelimen nimi, 285 on aika, jonka jälkeen tallenne/kirjaus päivittyy (refresh). IN=internet, A=address. Lopuksin näkyvissä nimipalvelimen takaa löytyvä IP-osoite.
+
+Lopussa löytyy kyselyn statistiikka (aika, pvm sekä palvelin, minkä kautta kysely kulkee) 
+
+Testasin dig-komentoa useasti, ja vastaus oli hieman erilainen joka kerta. Pakettien koko vaihtuu.
+
+![Add file: Update]
 
 ## Lähteet
 - https://github.com/guikka4/linux-course/blob/main/h4/maailma_kuulee.md 
