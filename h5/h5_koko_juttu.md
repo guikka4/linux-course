@@ -58,7 +58,7 @@ Parin päivän luovan taon jälkeen työskentely jatkuu. Seuraavana on vuorossa 
 
 - `EDITOR=micro sudoedit guikka.com.conf` -> Luodaan konffitiedosto /etc/apache2/sites-available -kansioon.
 
-![Add file: Upload]
+![Add file: Upload](h5_conf.png)
 
 - `sudo a2ensite guikka.com.conf` -> enabloidaan uusi sivusto
 - `sudo a2dissite 000-default.conf` -> disabloidaan defaultsivu
@@ -74,7 +74,7 @@ Parin päivän luovan taon jälkeen työskentely jatkuu. Seuraavana on vuorossa 
 
 - Tein ja vielä html-sivun index.html -tiedostoon ja validoin sivun w3 validatorin avulla.
 
-![Add file: Upload]
+![Add file: Upload](h5_htmlvalidate.png)
 
 
 
