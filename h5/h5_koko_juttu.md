@@ -54,7 +54,7 @@ Parin päivän luovan taon jälkeen työskentely jatkuu. Seuraavana on vuorossa 
 
 - `echo "Testing" | sudo tee /var/www/html/index.html` -> Vaihdetaan etusivun teksti . Toimii
 
-![Add file: Upload](h5_defaultsivunvaihto.png)
+![Add file: Upload](h5_defaulsivunvaihto.png)
 
 - `EDITOR=micro sudoedit guikka.com.conf` -> Luodaan konffitiedosto /etc/apache2/sites-available -kansioon.
 
