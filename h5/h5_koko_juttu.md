@@ -90,7 +90,7 @@ Kyselyn alussa nähdään komennon versio (DiG 9.18.24-1-Debian). Kyselyn header
 
 Answer-kohdassa on näkyvissä palvelimen nimi, 285 on aika, jonka jälkeen tallenne/kirjaus päivittyy (refresh). IN=internet, A=address. Lopuksin näkyvissä nimipalvelimen takaa löytyvä IP-osoite.
 
-Lopussa löytyy kyselyn statistiikka (aika, pvm sekä palvelin, minkä kautta kysely kulkee) 
+Lopussa löytyy kyselyn statistiikka (aika, pvm sekä palvelin, minkä kautta kysely kulkee) -> Tästähän tajusin, että tämä "palvelinosoite" osoittaa omaan kotireitittimeeni.
 
 Testasin dig-komentoa useasti, ja vastaus oli hieman erilainen joka kerta. Pakettien koko vaihtuu.
 
