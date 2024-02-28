@@ -66,6 +66,27 @@
 
 ![Add file: Upload]
 
+- `./manage.py createsuperuser` -> tällä saadaan siis admin tehtyä adminsivulle. Laitellaan hyvät salasanat ja ta-daa ! alla oleva kuva näyttää tuloksen
+
+![Add file: Upload]
+
+Jatketaan asiakastietokannan kimppuun
+
+- `micro guikka2/settings.py`-> lisätään "crm" kansio asetustiedostoon
+
+![Add file: Upload]
+
+- `micro crm/models.py` -> mennään lisäämään mallit
+
+Tehdään migraatiot jälleen
+- `./manage.py makemigrations`
+- `./manage.py migrate`
+
+- `micro crm/admin.py` -> rekisteröidään tietokanta jotta saadaan se näkyville saitille
+
+![Add file: Upload]
+
+
 ## Lähteet
 - Karvinen, T. 2022. https://terokarvinen.com/2022/deploy-django/
 - Karvinen, T. 2022. https://terokarvinen.com/2022/django-instant-crm-tutorial/
