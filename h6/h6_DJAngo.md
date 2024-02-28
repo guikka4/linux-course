@@ -96,7 +96,7 @@ Testasin vielä, että sain lisättyä selaimessa asiakkaita. Sain, mutta sielä
 
 - `micro crm/models.py` -> editoidaan tänne tiedot. Ja Ta-daa! Keijo ja Maija tulivat "Customer objectin" tilalle.
 
-![Add file: Upload](h6-customersnimet.png)
+![Add file: Upload](h6-customernimet.png)
 
 ## To production! Tai sitten ei.
 
