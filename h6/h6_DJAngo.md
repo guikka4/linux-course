@@ -14,7 +14,7 @@
 - Djangon ohjelmoinnit ovat projekteja, jokainen ominaan
 - Python on tässä tapauksessa eräänlainen mooodi, jota käytetään Apachen sisällä
 
-# Työskentely alkaa 28.2.2024 klo 16.45
+# Työskentely alkaa 28.2.2024 klo 16:45
 
 ## Käytössä oleva rauta
 ### Host OS
@@ -31,7 +31,7 @@
 - 4 Prosessoriydintä
 - Kovalevy 50GB
 
-## VirtualEnv
+## VirtualEnv ja django pystyyn. 28.2.2024 16:50-17:22
 - `sudo apt-get update` -> haetaan päivitykset
 - `sudo apt-get -y install virtualenv` -> asennetaan virtualenv kehitysympäristöksi
 - `mkdir django /home/user/` hakemistoon -> uusi kansio djangoprojekteille
@@ -39,10 +39,23 @@
 - `source env/bin/activate` -> aktivoi virtuaaliympäristön. Prompti vaihtuu (env) alkuiseksi.
 - `which pip` -> palauttaa `/home/pasih/django/env/bin/pip`, eli virtuaaliympäristössä ollaan
 - `micro requirements.txt` -> "django" kirjoitetaan tähän tiedostoon. Siltä asennetaan kohta itse django. Tarkistetaan `cat requirements.txt`. Palauttaa oikein kirjoitetun "django":n joten asennetaan
+
 ![Add file: Upload](h6-django-asennus.png)
+
 - `pip install -r requirements.txt` -> django asennus
 - `django-admin --version` -> näyttää mikä django versio on latautunut. Eli django 5
+
 ![Add file: Upload](h6-django-version.png)
+
+- `django-admin start project guikka2` -> aloitetaan uusi projekti nimeltä guikka2. Kuten todettu aiemmin, djangosivustot ovat projekteja
+- `manage.py runserver` -> käynnistellään kehityspalvelinsivu
+
+![Add file: Upload]
+
+- Käyn tsekkaamassa tilanteen 127.0.0.1.8000 palvelimelta selaimesta -> tulos alla, eli käynnissä ollaan!
+
+![Add file: Upload]
+
 - 
 
 ## Lähteet
