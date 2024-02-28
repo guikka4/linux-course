@@ -92,6 +92,13 @@ Tehdään migraatiot jälleen
 
 ![Add file: Upload](h6-customersnakyy.png)
 
+Testasin vielä, että sain lisättyä selaimessa asiakkaita. Sain, mutta sielä puuttuvat nyt nimet näkyvistä listauksessa, näkyvissä pelkästään "Customer object". Aika muokata koodia niin, että listaus näkyy.
+
+- `micro crm/models.py` -> editoidaan tänne tiedot. Ja Ta-daa! Keijo ja Maija tulivat "Customer objectin" tilalle.
+
+![Add file: Upload]
+
+
 
 ## Lähteet
 - Karvinen, T. 2022. https://terokarvinen.com/2022/deploy-django/
