@@ -59,16 +59,16 @@
 ## Admin Interface ja Customer Database klo 17:30-
 - Jatketaan admin interfacen teolla. Ensin päivitetään databaset. Työskentely tapahtuu kansiossa, jossa manage.py tiedosto on näkyvissä
 
-![Add file: Upload]
+![Add file: Upload](h6-managepy.png)
 
 - `./manage.py makemigrations`
 - `./manage.py migrate`
 
-![Add file: Upload]
+![Add file: Upload](h6-migrate.png)
 
 - `./manage.py createsuperuser` -> tällä saadaan siis admin tehtyä adminsivulle. Laitellaan hyvät salasanat ja ta-daa ! alla oleva kuva näyttää tuloksen
 
-![Add file: Upload]
+![Add file: Upload](h6-crm.png)
 
 Jatketaan asiakastietokannan kimppuun
 
