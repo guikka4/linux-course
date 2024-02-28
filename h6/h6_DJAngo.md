@@ -50,11 +50,11 @@
 - `django-admin start project guikka2` -> aloitetaan uusi projekti nimeltä guikka2. Kuten todettu aiemmin, djangosivustot ovat projekteja
 - `manage.py runserver` -> käynnistellään kehityspalvelinsivu
 
-![Add file: Upload]
+![Add file: Upload](h6-runserver.png)
 
 - Käyn tsekkaamassa tilanteen 127.0.0.1.8000 palvelimelta selaimesta -> tulos alla, eli käynnissä ollaan!
 
-![Add file: Upload]
+![Add file: Upload](h6-serverup.png)
 
 - 
 
