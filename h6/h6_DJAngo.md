@@ -14,6 +14,8 @@
 - Djangon ohjelmoinnit ovat projekteja, jokainen ominaan
 - Python on tässä tapauksessa eräänlainen mooodi, jota käytetään Apachen sisällä
 
+# Työskentely alkaa 28.2.2024 klo 16.45
+
 ## Käytössä oleva rauta
 ### Host OS
 - Asus Tuf Gaming A15 FA506QM kannettava tietokone. Kone on tarkoitettu pelikäyttöön, ja on opiskeluolosuhteisiin ja tarkoitukseen nähden tehokas.
@@ -28,6 +30,19 @@
 - RAM 4096MB
 - 4 Prosessoriydintä
 - Kovalevy 50GB
+
+## VirtualEnv
+- `sudo apt-get update` -> haetaan päivitykset
+- `sudo apt-get -y install virtualenv` -> asennetaan virtualenv kehitysympäristöksi
+- `mkdir django /home/user/` hakemistoon -> uusi kansio djangoprojekteille
+- `virtualenv --system-site-packages -p python3 env/` -> luo env/ kansion ylle määritellylle polulle. Komento `system-site-packages` antaa ladata paketteja pythonia varten virtuaaliympäristön ulkopuolelta
+- `source env/bin/activate` -> aktivoi virtuaaliympäristön. Prompti vaihtuu (env) alkuiseksi.
+- `which pip` -> palauttaa `/home/pasih/django/env/bin/pip`, eli virtuaaliympäristössä ollaan
+- `micro requirements.txt` -> "django" kirjoitetaan tähän tiedostoon. Siltä asennetaan kohta itse django. Tarkistetaan `cat requirements.txt`. Palauttaa oikein kirjoitetun "django":n joten asennetaan
+![Add file: Upload]
+- `pip install -r requirements.txt` -> django asennus
+- `django-admin --version` -> näyttää mikä django versio on latautunut. Eli django 5
+![Add file: Upload]
 
 ## Lähteet
 - Karvinen, T. 2022. https://terokarvinen.com/2022/deploy-django/
