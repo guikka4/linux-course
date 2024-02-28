@@ -12,7 +12,7 @@
 - Asennus muistuttaa hyvin pitkälti aiemmin kurssilla tehtyä Name Based Virtual Hostia, conffitiedosto on hieman erilainen
 - Kun asennetaan djangoa, luodaan ensin env.
 - Djangon ohjelmoinnit ovat projekteja, jokainen ominaan
-- Python on eräänlainen mooodi, jota käytetään Apachen sisällä
+- Python on tässä tapauksessa eräänlainen mooodi, jota käytetään Apachen sisällä
 
 ## Käytössä oleva rauta
 ### Host OS
@@ -24,3 +24,12 @@
 - Nettiyhteys mobiilidata
 
 ### Guest OS
+- Debian bookworm
+- RAM 4096MB
+- 4 Prosessoriydintä
+- Kovalevy 50GB
+
+## Lähteet
+- Karvinen, T. 2022. https://terokarvinen.com/2022/deploy-django/
+- Karvinen, T. 2022. https://terokarvinen.com/2022/django-instant-crm-tutorial/
+- Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h6-dj-ango
