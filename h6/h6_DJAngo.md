@@ -31,7 +31,7 @@
 - 4 Prosessoriydintä
 - Kovalevy 50GB
 
-## VirtualEnv ja django pystyyn. 28.2.2024 16:50-17:22
+## VirtualEnv ja django pystyyn. 28.2.2024 klo 16:50-17:22
 - `sudo apt-get update` -> haetaan päivitykset
 - `sudo apt-get -y install virtualenv` -> asennetaan virtualenv kehitysympäristöksi
 - `mkdir django /home/user/` hakemistoon -> uusi kansio djangoprojekteille
@@ -52,11 +52,19 @@
 
 ![Add file: Upload](h6-runserver.png)
 
-- Käyn tsekkaamassa tilanteen 127.0.0.1.8000 palvelimelta selaimesta -> tulos alla, eli käynnissä ollaan!
+- Käyn tsekkaamassa tilanteen 127.0.0.1.8000 palvelimelta selaimesta -> tulos alla, eli käynnissä ollaan! `CTRL+C` päästää pois ja takaisin terminaalinäkymään. Tämän jälkeen myös alla oleva kehityspalvelinsivu näyttää "page not found" tekstiä, josta myös tietää palvelimen olevan kiinni.
 
 ![Add file: Upload](h6-serverup.png)
 
-- 
+## Admin Interface ja Customer Database klo 17:30-
+- Jatketaan admin interfacen teolla. Ensin päivitetään databaset. Työskentely tapahtuu kansiossa, jossa manage.py tiedosto on näkyvissä
+
+![Add file: Upload]
+
+- `./manage.py makemigrations`
+- `./manage.py migrate`
+
+![Add file: Upload]
 
 ## Lähteet
 - Karvinen, T. 2022. https://terokarvinen.com/2022/deploy-django/
