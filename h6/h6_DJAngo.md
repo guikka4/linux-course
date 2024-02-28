@@ -68,13 +68,13 @@
 
 - `./manage.py createsuperuser` -> tällä saadaan siis admin tehtyä adminsivulle. Laitellaan hyvät salasanat ja ta-daa ! alla oleva kuva näyttää tuloksen
 
-![Add file: Upload](h6-crm.png)
+![Add file: Upload](h6-adminsivu.png)
 
 Jatketaan asiakastietokannan kimppuun
 
 - `micro guikka2/settings.py`-> lisätään "crm" kansio asetustiedostoon
 
-![Add file: Upload]
+![Add file: Upload](h6-crm.png)
 
 - `micro crm/models.py` -> mennään lisäämään mallit
 
