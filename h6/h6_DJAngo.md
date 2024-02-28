@@ -68,7 +68,7 @@
 
 - `./manage.py createsuperuser` -> tällä saadaan siis admin tehtyä adminsivulle. Laitellaan hyvät salasanat ja ta-daa ! alla oleva kuva näyttää tuloksen
 
-![Add file: Upload](h6-adminsivu.png)
+![Add file: Upload](h6-adminsivu.pg)
 
 Jatketaan asiakastietokannan kimppuun
 
