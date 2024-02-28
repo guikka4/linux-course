@@ -24,7 +24,7 @@
 - Nettiyhteys mobiilidata
 
 ### Guest OS
-- Debian bookworm
+- Debian bookworm - VirtualBoxin kautta asennettu
 - RAM 4096MB
 - 4 Prosessoriydintä
 - Kovalevy 50GB
