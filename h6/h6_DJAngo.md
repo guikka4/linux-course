@@ -78,7 +78,7 @@ Jatketaan asiakastietokannan kimppuun
 
 - `micro crm/models.py` -> mennään lisäämään mallit
 
-![ÍAdd file: Upload]
+![ÍAdd file: Upload](h6-models.png)
 
 Tehdään migraatiot jälleen
 - `./manage.py makemigrations`
@@ -86,11 +86,11 @@ Tehdään migraatiot jälleen
 
 - `micro crm/admin.py` -> rekisteröidään tietokanta jotta saadaan se näkyville saitille
 
-![Add file: Upload]
+![Add file: Upload](h6-adminpy.png)
 
 - `manage.py runserver` -> tsekkaus että Customers kenttä on näkyvissä. Onhan se.
 
-![Add file: Upload]
+![Add file: Upload](h6-customersnakyy.png)
 
 
 ## Lähteet
