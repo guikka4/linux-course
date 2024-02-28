@@ -39,10 +39,11 @@
 - `source env/bin/activate` -> aktivoi virtuaaliympäristön. Prompti vaihtuu (env) alkuiseksi.
 - `which pip` -> palauttaa `/home/pasih/django/env/bin/pip`, eli virtuaaliympäristössä ollaan
 - `micro requirements.txt` -> "django" kirjoitetaan tähän tiedostoon. Siltä asennetaan kohta itse django. Tarkistetaan `cat requirements.txt`. Palauttaa oikein kirjoitetun "django":n joten asennetaan
-![Add file: Upload]
+![Add file: Upload](h6-django-asennus.png)
 - `pip install -r requirements.txt` -> django asennus
 - `django-admin --version` -> näyttää mikä django versio on latautunut. Eli django 5
-![Add file: Upload]
+![Add file: Upload](h6-django-version.png)
+- 
 
 ## Lähteet
 - Karvinen, T. 2022. https://terokarvinen.com/2022/deploy-django/
