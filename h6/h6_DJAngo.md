@@ -56,7 +56,7 @@
 
 ![Add file: Upload](h6-serverup.png)
 
-## Admin Interface ja Customer Database klo 17:30-
+## Admin Interface ja Customer Database klo 17:30-18:20
 - Jatketaan admin interfacen teolla. Ensin päivitetään databaset. Työskentely tapahtuu kansiossa, jossa manage.py tiedosto on näkyvissä
 
 ![Add file: Upload](h6-managepy.png)
@@ -96,9 +96,9 @@ Testasin vielä, että sain lisättyä selaimessa asiakkaita. Sain, mutta sielä
 
 - `micro crm/models.py` -> editoidaan tänne tiedot. Ja Ta-daa! Keijo ja Maija tulivat "Customer objectin" tilalle.
 
-![Add file: Upload]
+![Add file: Upload](h6-customersnimet.png)
 
-
+## To production! Tai sitten ei.
 
 ## Lähteet
 - Karvinen, T. 2022. https://terokarvinen.com/2022/deploy-django/
