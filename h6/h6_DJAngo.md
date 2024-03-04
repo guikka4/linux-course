@@ -98,7 +98,7 @@ Testasin vielä, että sain lisättyä selaimessa asiakkaita. Sain, mutta sielä
 
 ![Add file: Upload](h6-customernimet.png)
 
-## To production! Tai sitten ei. Työskentely 4.3.2024 klo 17:55-
+## To production! Tai sitten ei. Työskentely 4.3.2024 klo 17:55-19:00
 Tavoitteena tehdä tuotantotyyppinen asennus omalle virtuaalikoneelle. Lähtötilanteessa paikallisella koneellani on aiemmin kurssilla luotu html-sivu, kuvakaappauksessa selaimen sekä curl-komennon tuottama näkymä.
 
 ![Add file: Upload](h6-prod-1.png)
@@ -121,16 +121,18 @@ Conf-tiedoston (apua Tero Karvisen artikkelista Deploy Django) tekemisen jälkee
 - `/sbin/apachectl configtest` -> toimii
 - `sudo systemctl restart apache2` -> toimii
 
-![Add file: Upload]
+![Add file: Upload](h6-configtest2.png)
 
 - Aika onkin siirtyä eteenpäin ja tsekata että kaikki kuosissa.
 - `curl -s localhost|grep title` -> EI TOIMI...
 
-![Add file: Upload] 
+![Add file: Upload](h6-error2.png)
 
-- `sudo tail /var/log/apache/error.log` -> errorlogit apachelta
+- `sudo tail /var/log/apache/error.log` -> errorlogit apachelta. Nyt menee maku ja raavin palautuksen tähänastisesta tilanteesta. Updates coming soon.
 
-![Add file: Upload]
+![Add file: Upload](h6-errorlog.png)
+
+
 
 
 
