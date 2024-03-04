@@ -101,11 +101,11 @@ Testasin vielä, että sain lisättyä selaimessa asiakkaita. Sain, mutta sielä
 ## To production! Tai sitten ei. Työskentely 4.3.2024 klo 17:55-
 Tavoitteena tehdä tuotantotyyppinen asennus omalle virtuaalikoneelle. Lähtötilanteessa paikallisella koneellani on aiemmin kurssilla luotu html-sivu, kuvakaappauksessa selaimen sekä curl-komennon tuottama näkymä.
 
-![Add file: Upload]
+![Add file: Upload](h6-prod-1.png)
 
 Virtuaalikoneella on asennettuna apache2 ja aiemmin tehtävän aikana asennetut tehtävän suorittamiseen tarvittavat kilkkeet. Ja djangon tuotantoonmenoasennus alkaa siis luomalla uusi conf-tiedosto jo aiemmin luotua guikka2 -projektia varten. `EDITOR=micro sudoedit guikka2.conf`
 
-![Add file: Upload]
+![Add file: Upload](h6-conf.png)
 
 Conf-tiedoston (apua Tero Karvisen artikkelista Deploy Django) tekemisen jälkeen asennellaan Apache WSGI -moduuli, unohtamatta uuden sivun enablointia.
 - `sudo a2dissite hattu.example.com.conf` -> suljetaan entinen html sivu localhostilta
@@ -114,7 +114,7 @@ Conf-tiedoston (apua Tero Karvisen artikkelista Deploy Django) tekemisen jälkee
 - `/sbin/apachectl configtest` -> Ei toimi, "bad user name"...
 - `sudo systemctl restart apache2` -> mietin josko palvelimen buuttaus toimisi, no ei toimi.
 
-![Add file: Upload]
+![Add file: Upload](h6-configtest1.png)
 
 - Eipä mitään. Tsekkaan ensin conffitiedoston ja tiedostopolut, että siellä nyt ei ole mitään virhettä
 - `sudo tail /var/log/apache/error.log` -> errorlogit apachelta.
