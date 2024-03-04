@@ -116,8 +116,21 @@ Conf-tiedoston (apua Tero Karvisen artikkelista Deploy Django) tekemisen jälkee
 
 ![Add file: Upload](h6-configtest1.png)
 
-- Eipä mitään. Tsekkaan ensin conffitiedoston ja tiedostopolut, että siellä nyt ei ole mitään virhettä
-- `sudo tail /var/log/apache/error.log` -> errorlogit apachelta.
+- Eipä mitään. Tsekkaan ensin conffitiedoston ja tiedostopolut, että siellä nyt ei ole mitään virhettä. Olihan siellä. Uudelleen conf. tiedoston kimppuun ja user muutettu pasi->pasih.
+- Tämän jälkeen uudestaan configtest ja sen jälkeen restart komennot.
+- `/sbin/apachectl configtest` -> toimii
+- `sudo systemctl restart apache2` -> toimii
+
+![Add file: Upload]
+
+- Aika onkin siirtyä eteenpäin ja tsekata että kaikki kuosissa.
+- `curl -s localhost|grep title` -> EI TOIMI...
+
+![Add file: Upload] 
+
+- `sudo tail /var/log/apache/error.log` -> errorlogit apachelta
+
+![Add file: Upload]
 
 
 
