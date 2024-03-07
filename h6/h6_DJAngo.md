@@ -133,11 +133,11 @@ Conf-tiedoston (apua Tero Karvisen artikkelista Deploy Django) tekemisen jälkee
 ![Add file: Upload](h6-errorlog.png)
 
 ## UPDATE 7.3.2024 klo 17:48 - 17:50
-Oppitunnilla selvisi vika, missä kiikastaa. Raportoin nyt toimet, joilla päästiin eteenpäin.
-Virhelokista päästiin selville, että wsgi moduuli ei toimi -> testattiin, on asennettu.
-Palattiin takaisin conf-tiedostoon, ja ta-daa! Riviltä 4 puuttuu `/site-packages`
-`sudo systemctl restart apache2` -> restartti onnistui
-Refresh localhost-sivustolle tuotti toivotun tuloksen. Pienestä voi olla kiinni !
+- Oppitunnilla selvisi vika, missä kiikastaa. Raportoin nyt toimet, joilla päästiin eteenpäin.
+- Virhelokista päästiin selville, että wsgi moduuli ei toimi -> testattiin, on asennettu.
+- Palattiin takaisin conf-tiedostoon, ja ta-daa! Riviltä 4 puuttuu `/site-packages`
+- `sudo systemctl restart apache2` -> restartti onnistui
+- Refresh localhost-sivustolle tuotti toivotun tuloksen. Pienestä voi olla kiinni !
 
 
 
