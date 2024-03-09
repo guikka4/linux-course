@@ -23,7 +23,8 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 # Työskentely 9.3.2024 klo 10:15-
 ## a) Hei, maailma pythonilla
 - `micro hello.py` -> loin tämän nimisen tiedoston kotihakemistooni. Kuvakaappauksessa lopputulos
+
 - `#!/usr/bin/python3`
-- print("Hello, world!")`
+- `print("Hello, world!")`
 
 ![Add file: Update](h7_helloworld.png)
