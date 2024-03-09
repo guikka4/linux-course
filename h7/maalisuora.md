@@ -1,8 +1,9 @@
 # Maalisuoralla !
-Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää a) käännöksen "Hei maailma"
-b) Kaikilla käyttäjillä ajettavissa oleva komento 
-c) Vanhan labraharjoituksen rakaiseminen soveltuvin osin 
-d) Uuden virtuaalikoneen asennuksen ja päivittämisen sekä palomuurin asennuksen
+Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää 
+- a) käännöksen "Hei maailma"
+- b) Kaikilla käyttäjillä ajettavissa oleva komento 
+- c) Vanhan labraharjoituksen rakaiseminen soveltuvin osin 
+- d) Uuden virtuaalikoneen asennuksen ja päivittämisen sekä palomuurin asennuksen
 
 ## Käytössä oleva rauta
 ### Host OS
