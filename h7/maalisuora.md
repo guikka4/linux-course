@@ -28,3 +28,16 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 - `print("Hello, world!")`
 
 ![Add file: Update](h7_helloworld.png) ![Add file: Upload](h7-hello2.png)
+
+## b) Ajettava komento kaikille käyttäjille. Käytän shelli scriptiä esimerkkiin
+- `micro test1.sh` -> tiedosto kotihakemistoon. Scritpi sisältää kuvakaappauksen komennot
+- `#!/usr/bin/bash` -> mahdollistaa scriptin ajon mistä tahansa
+- `pwd` -> näyttää tämänhetkisen hakemistopolun
+- `ls`-> listaa hakemistokansion sisällön
+- `whoami` -> näyttää käyttäjän
+- `hostname` -> näyttää tietokoneen nimen
+- `date --iso=min` -> näyttää pvm ja kellonajan
+- `cat test1.sh` -> tulostaa test1.sh tiedoston sisällön komentoriville
+
+![Add file: Update]
+- `
