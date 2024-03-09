@@ -49,11 +49,11 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 - `sudo cp test1.sh` /usr/local/bin/` -> tiedoston siirto kansioon, josta se on ajettavissa kaikkialta
 - `ls /usr/local/bin` -> tsekataan että siellä se on
 
-![Add file: Update]
+![Add file: Update](h7-local.png)
 
 - `./test1.sh` -> testataan vielä että scripti toimii. Toimii
 - `test1.sh` -> kokeillaan vielä muulla hakemistopolulla, tässä tapauksessa rootissa. Toimii
 
-![Add file: Update]
+![Add file: Update](h7-test2sh.png)
 
 
