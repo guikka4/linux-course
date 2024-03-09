@@ -40,10 +40,20 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 - `cat test1.sh` -> tulostaa test1.sh tiedoston sisällön komentoriville
 
 ![Add file: Update](h7-test1sh.png)
+
 - `bash test1.sh` -> koklaillaan ensin hakemistossa miten toimii. Toimii
 
 ![Add file: Update](h7-bashtesti1.png)
 
-- `
+- `chmod ugo+x test1.sh` -> annetaan ajo-oikeus kaikille käyttäjille
+- `sudo cp test1.sh` /usr/local/bin/` -> tiedoston siirto kansioon, josta se on ajettavissa kaikkialta
+- `ls /usr/local/bin` -> tsekataan että siellä se on
+
+![Add file: Update]
+
+- `./test1.sh` -> testataan vielä että scripti toimii. Toimii
+- `test1.sh` -> kokeillaan vielä muulla hakemistopolulla, tässä tapauksessa rootissa. Toimii
+
+![Add file: Update]
 
 
