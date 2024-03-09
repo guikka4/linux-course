@@ -12,7 +12,7 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 - Prosessori: AMD Ryzen 7 5800H, 8 ydintä 3200GHz
 - Muisti: 16 Gt
 - Näytönohjain 6144Mt omalla muistilla
-- Nettiyhteys mobiilidata
+- Nettiyhteys taloyhtiön ethernet
 
 ### Guest OS
 - Debian bookworm - VirtualBoxin kautta asennettu
