@@ -39,5 +39,5 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 - `date --iso=min` -> näyttää pvm ja kellonajan
 - `cat test1.sh` -> tulostaa test1.sh tiedoston sisällön komentoriville
 
-![Add file: Update]
+![Add file: Update](h7-test1sh.png)
 - `
