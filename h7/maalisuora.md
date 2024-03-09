@@ -57,7 +57,7 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 
 ![Add file: Update](h7-test2sh.png)
 
-## d) Uuden virtuaalikoneen asennus labraa varten 9.3.2024 12:00-
+## d) Uuden virtuaalikoneen asennus labraa varten 9.3.2024 12:00-12:30
 - 64-bit debian bookworm
 - 6gb RAM
 - 4 prosessoriydintä
