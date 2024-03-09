@@ -42,6 +42,8 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 ![Add file: Update](h7-test1sh.png)
 - `bash test1.sh` -> koklaillaan ensin hakemistossa miten toimii. Toimii
 
-![Add file: Update]
+![Add file: Update](h7-bashtesti1.png)
+
+- `
 
 
