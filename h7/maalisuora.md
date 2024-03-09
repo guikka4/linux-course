@@ -4,6 +4,7 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 - b) Kaikilla käyttäjillä ajettavissa oleva komento 
 - c) Vanhan labraharjoituksen rakaiseminen soveltuvin osin 
 - d) Uuden virtuaalikoneen asennuksen ja päivittämisen sekä palomuurin asennuksen
+- (Karvinen, T. 2024)
 
 ## Käytössä oleva rauta
 ### Host OS
@@ -56,4 +57,28 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 
 ![Add file: Update](h7-test2sh.png)
 
+## d) Uuden virtuaalikoneen asennus labraa varten 9.3.2024 12:00-
+- 64-bit debian bookworm
+- 6gb RAM
+- 4 prosessoriydintä
+- 40gb kovalevytilaa
+- äärettömän hyvät salasanat
+- Näppis, hiiri ja netti toimii joten työpöydältä Debianin asennus seuraavaksi
+- Kieleksi amerikan englanti, käyttöalueeksi Suomi ja näppäpimistö suomalaiseksi
+- Nimi ja muut tiedot sekä älytön salasana
+- -> install ja odotellaan hetki
+- guest additions asennus jotta resoluutio skaalautuu ja näyttö on nätimpi.
+- Devices->VBox kuvake -> Terminaaliin `cd /media/*/VBox*` -> `sudo bash VBoxLinuxAdditions.run` -> Restarttia ja kaikki toimii
+- (Karvinen, T. 2021)
 
+### Virtuaalikone käyttökuntoon labraa varten
+- `sudo apt-get update` -> päivitysten haku
+- `sudo apt-get -y dist-upgrade` -> päivitysten asennus
+- `sudo apt-get -y install ufw` -> palomuurin asennus
+- `sudo ufw enable`-> palomuuri päälle -> `Firewall is active and enabled on system startup`
+
+## c) Vanhan labraharjoituksen teko. Tällä haavaa suuria aikatauluhaasteita. Toivon, että ehdin tekemään ennen arvioitavaa loppuharjoitusta!
+
+## Lähteet
+- Karvinen, T. 2021. Virtuaalikoneen asennus. https://terokarvinen.com/2021/install-debian-on-virtualbox/
+- Karvinen, T. 2024. Tehvtävänanto. https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h7-maalisuora
