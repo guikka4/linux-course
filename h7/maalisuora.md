@@ -20,4 +20,10 @@ Tällä viikolla on varsinainen viimeinen viikkotehtävä. Tehtävä sisältää
 - 4 Prosessoriydintä
 - Kovalevy 50GB
 
-## Työskentely 9.3.2024 klo 10:15-
+# Työskentely 9.3.2024 klo 10:15-
+## a) Hei, maailma pythonilla
+- `micro hello.py` -> loin tämän nimisen tiedoston kotihakemistooni. Kuvakaappauksessa lopputulos
+- `#!/usr/bin/python3`
+- print("Hello, world!")`
+
+![Add file: Update]
